@@ -109,7 +109,7 @@ public class XMLWeather {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(connection.getConnection());
             System.out.println("sei connesso a meteo");
-            
+            //now we can do the research into the xml
             XPathFactory xpathFactory = XPathFactory.newInstance();
             XPath xpath = xpathFactory.newXPath();
             
